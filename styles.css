@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 body {
+  font-family: "Poppins", sans-serif;
   background: #e5e5e5;
   font-size: 2rem;
   height: 100vh;
@@ -135,4 +136,36 @@ footer {
   .head {
     font-size: 2rem;
   }
+}
+.images-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  justify-content: center;
+  height: 100vh;
+  color: #e5e5e5;
+}
+
+img {
+  width: 40rem;
+  object-fit: cover;
+  transition: 0.3s;
+  /* scale: 1; */
+  transform: scale(1);
+}
+img:hover {
+  /* scale: 1.1; */
+  transform: scale(1.1);
+}
+.nxt-head {
+  text-align: center;
+  text-decoration: underline;
+  padding-bottom: 8rem;
+  padding-top: 8rem;
+}
+.vid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
