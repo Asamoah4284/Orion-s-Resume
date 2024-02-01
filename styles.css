@@ -73,11 +73,11 @@ img {
   grid-template-columns: 1fr 1fr;
 }
 section {
-  padding: 3rem;
+  padding: 2rem;
   place-items: center;
 }
 aside {
-  padding: 3rem;
+  padding: 2rem;
   justify-items: center;
 }
 section p {
